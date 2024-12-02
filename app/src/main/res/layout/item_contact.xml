@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:padding="8dp">
 
-    <!-- Nombre del contacto -->
+ 
     <TextView
         android:id="@+id/tvName"
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
         android:textStyle="bold"
         android:paddingBottom="4dp"/>
 
-    <!-- Número de teléfono -->
+
     <TextView
         android:id="@+id/tvPhone"
         android:layout_width="match_parent"
@@ -24,7 +24,6 @@
         android:textSize="14sp"
         android:paddingBottom="4dp"/>
 
-    <!-- Estado del contacto (Disponible/Ocupado) -->
     <TextView
         android:id="@+id/tvStatus"
         android:layout_width="match_parent"
